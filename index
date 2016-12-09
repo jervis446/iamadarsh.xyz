@@ -7,19 +7,53 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+  	
 <style>
+ @import url('https://fonts.googleapis.com/css?family=Ultra');
+ @import url('https://fonts.googleapis.com/css?family=Anton');
+
 .bg-1 { 
-    background-color: #1abc9c; /* Green */
+    background-color: #372522; /* Green */
     color: #ffffff;
 	}
+.container-fluid {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
 </style>
 </head>
 <body>
 
 <div class="container-fluid text-center bg-1 ">
-  <img src="samriddhi.jpg" class="img-circle" alt="Bird">
+  <img src="samriddhi.jpg" class="img-circle" alt="Bird" height= 20% width= 20%>
+<h2 style=" font-family:'Ultra';">Samriddhi Sinha</h2>
 </div>
 
+<div class="container-fluid text-center" style=" font-family:'Anton';">
+<h3 style=" font-family:'Ultra';"> What Do I Do? </h3><br>
+  <div class="row">
+	<div class="col-sm-4">
+		<img src="laptop.png" height=75% width=75%>
+		<h4>Coding</h4>
+		<h5>Languages: C/C++ | Python | R</h5>
+		<h5>Fields: Machine Learning | Image Processing | Artificial Intelligence | Data Analysis</h5>  
+	</div>
+	<div class="col-sm-4">
+		<img src="money-bag.png" height=75% width=75%>
+		<h4>Finance</h4>
+	</div>
+ 	<div class="col-sm-4">
+		<img src="pen.png" height=75% width=75%>
+		<h4>Writing</h4>
+		<h5>I pen my opinions on <a href="https://quora.com/samriddhi-sinha" target= blank>Quora</a></h5>
+		<h5>I also run a page called The Crumpled Letters.<br> <a href="thecrumpledletters.esy.es" target=blank> Website </a>.<a href="https://facebook.com/thecrumpledletters" target = blank> Facebook</a> .</h5>     
+
+	</div>
+  </div>	
+</div>
+</div>
 </body>
 </html>
+
