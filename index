@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Theme Simply Me</title>
+  <title>Samriddhi Sinha</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -13,25 +13,59 @@
  @import url('https://fonts.googleapis.com/css?family=Anton');
 
 .bg-1 { 
-    background-color: #372522; /* Green */
+    background-color: #372522;
     color: #ffffff;
 	}
 .container-fluid {
     padding-top: 30px;
     padding-bottom: 30px;
-
 }
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
+}
+
 
 </style>
 </head>
 <body>
+
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#">Me</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">WHO</a></li>
+        <li><a href="#">WHAT</a></li>
+        <li><a href="#">WHERE</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
 <div class="container-fluid text-center bg-1 ">
   <img src="samriddhi.jpg" class="img-circle" alt="Bird" height= 20% width= 20%>
 <h2 style=" font-family:'Ultra';">Samriddhi Sinha</h2>
 </div>
 
-<div class="container-fluid text-center" style=" font-family:'Anton';">
+<div class="container-fluid text-center" style=" font-family:'Anton'; color: #372522">
 <h3 style=" font-family:'Ultra';"> What Do I Do? </h3><br>
   <div class="row">
 	<div class="col-sm-4">
@@ -53,7 +87,18 @@
 	</div>
   </div>	
 </div>
+
+<div class="container-fluid text-center bg-1" style=" font-family:'Anton';">
+<h3 style=" font-family:'Ultra';"> Projects </h3><br>
+  <div class="row">
+	<div class="col-sm-4">
+		<img src="TCL.png" height=75% width=75%>
+		<h4>The Crumpled Letters</h4> 
+	</div>
+
+  </div>	
 </div>
+
 </body>
 </html>
 
