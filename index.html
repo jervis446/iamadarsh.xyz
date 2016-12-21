@@ -61,11 +61,56 @@
   border-radius: 0;
 }
 
+.navbar {
+    margin-bottom: 0;
+    background-color: #372522;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
 
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #372522 !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
 </style>
 </head>
-<body>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#">Samriddhi Sinha</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">What I Do</a></li>
+        <li><a href="#project">Projects</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div id="about">
 <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -112,8 +157,9 @@
   </div>
 <br><br>
 </div>
+</div>
 
-<div class="container-fluid text-center" style=" font-family:'Anton'; color: #372522">
+<div id="services" class="container-fluid text-center" style=" font-family:'Anton'; color: #372522">
 <h3 style=" font-family:'Ultra';"> What Do I Do? </h3><br>
   <div class="row">
 	<div class="col-sm-4">
@@ -136,7 +182,7 @@
   </div>	
 </div>
 
-<div class="container-fluid text-center bg-1" style=" font-family:'Anton';">
+<div id="project" class="container-fluid text-center bg-1" style=" font-family:'Anton';">
 <h3 style=" font-family:'Ultra';"> Projects </h3><br>
   <div class="row">
 	<div class="col-sm-4">
