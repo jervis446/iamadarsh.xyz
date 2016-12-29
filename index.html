@@ -18,6 +18,13 @@
     background-color: #372522;
     color: #ffffff;
 	}
+
+.bg-2 { 
+        
+    background-color:#ffffff ;
+    color: #372522;
+	}
+
 .container-fluid {
     padding-top: 35px;
     padding-bottom: 35	px;
@@ -215,7 +222,12 @@
 		</a>
 		<h4>The Crumpled Letters</h4> 
 	</div>
-
+	<div class="col-sm-4">
+		<a href="#myModal2" data-toggle="modal">
+		<img src="MovieLens.png" height=55% width=55%>
+		</a>
+		<h4>Recommender Systems Based on The MovieLens DataSet</h4> 
+	</div>
   </div>
 <br><br>
 </div>
@@ -226,10 +238,37 @@
     <!-- Modal content-->
     <div class="modal-content">
  	<div class="modal-body">
-        	<div class="container-fluid text-center bg-1 ">
-  			<img src="TCL.png" alt="TCL" height= 20% width= 20%>
+        	<div class="container-fluid text-center bg-2 ">
+  			<img src="TCL2.png" alt="TCL" height= 20% width= 20% style="padding-top: 2%;">
 			<h2 style=" font-family:'Ultra';">The Crumpled Letters</h2>
 			<h3> It started off as a <a href="https://facebook.com/thecrumpledletters" target = blank>Facebook</a> page.<br> Majority of the content on the page in it's initial has been due to the joint efforts of me and my friend <b>Prerona Sengupta</b>.<br> Recently I also managed to develop a <a href="thecrumpledletters.esy.es" target=blank>Website </a>for this venture.<br> We have also been joined by four more writers on this projects.<br> The content of the page majorly deals with poetries, letters and musings.<br> We are looking for writers to join us in our project. <br> If you are interested in The Crumpled Letters please do visit us on Facebook/Website and drop a message.
+			</h3>
+		</div>	
+        </div>
+        <div class="modal-footer">
+        	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+
+  </div>
+</div>
+
+<div id="myModal2" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+ 	<div class="modal-body">
+        	<div class="container-fluid text-center bg-2 ">
+  			<img src="MovieLens.png" alt="MovieLens" height= 20% width= 20% style="padding-top: 2%;">
+		</div>
+		<div class="container-fluid bg-2 ">
+			<h2 style=" font-family:'Ultra'; align:left">Recommender Systems Based on The MovieLens DataSet</h2>
+			<h3>Implementations of the various Recommender System Models on the MovieLens DataSet.For more information about this project you can visit the Github <a href="https://github.com/djokester/RecommenderSystemMovieLens">Repository</a>. The various models that have been implemented till date are:
+			<ol>
+			<li>Simple Recommender System: Created using manipulation of the data set with just Pandas. For more info check out this <a href="https://acodeforthought.wordpress.com/2016/12/26/building-a-simple-recommender-system-with-movie-lens-data-set/">blog post</a></li>	
+			<li>Collaborative Filtering Model: This again can be of two types:<ol><li>User-User:</li><li>Item-Item:</li></ol></li>
+
 			</h3>
 		</div>	
         </div>
